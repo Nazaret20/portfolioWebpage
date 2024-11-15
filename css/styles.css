@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#navbar {
+    width: 100vw;
+    height: 6rem;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+}
+
+    #navbar ul {
+        width: 90%;
+        height: 6rem;
+        display: flex;
+        list-style: none;
+        align-items: center;
+        color: white;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    #navbar li {
+        padding: 0 2rem 0 2rem;
+    }
+    #navbar a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.8rem;
+    }
+    #navbar a:hover {
+        text-shadow:
+        0 0 5px #fff,
+        0 0 10px #ffffff,
+        0 0 20px #ffffff; 
+    }
+
+    .svg {
+        width: 3rem;
+    }
+
+#welcome-section {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 6rem;
+    background-color: rgb(60, 0, 68);
+}
+
+    .hero-welcome-section {
+        width: 100vw;
+        height: 100vh;
+        margin-top: -6rem;
+    }
+
+    .div-welcome-section {
+        width: 50%;
+        height: 50%;
+        margin: -50rem auto 0;
+        text-align: center;
+        
+    }
+    .div-welcome-section p {
+        font-size: 1.8rem;
+    }
+    .div-welcome-section h1 {
+        font-size: 5rem;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+        text-shadow:
+        0 0 5px #ffffff8c,
+        0 0 10px #ffffff9c,
+        0 0 20px #ffffff83;
+        color: white;
+    }
+
+#projects {
+    width: 100vw;
+    height: 100%;
+    background-color: rgb(60, 0, 68);
+    padding-bottom: 6rem;
+}
+
+    #projects h2 {
+        font-size: 3rem;
+        color: white;
+        margin: 0 auto;
+        border-bottom: 1px solid;
+        display: block;
+        width: 40rem;
+        padding-left: 1.5rem;
+    }
+
+    .projects-container {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 6rem;
+        display: flex;
+        flex-direction: row;
+        max-width: 940px;
+        gap: 2rem;
+        max-width: 1390px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .project-tile {
+        width: 45rem;
+
+    }
+
+    .project-tile a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .project-tile p {
+        display: block;
+        height: 5rem;
+        width: 45rem;
+        background-color: rgb(55, 37, 136);
+        text-align: center;
+        padding-top: 1.4rem;
+        margin-top: -0.3rem;
+        
+    }
+    .projects-img {
+        width: 45rem;
+        
+    }
+
+#contact {
+    width: 100vw;
+    height: 50rem;
+    background-color: rgb(0, 102, 128);
+}
+    .contact-div {
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 20rem;
+        text-align: center;
+        color: white;
+    }
+
+    .contact-div h2 {
+        font-size: 4rem;
+    }
+
+    .contact-div p {
+        font-size: 1.8rem;
+        padding: 1rem;
+    }
+
+    .contact-div ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-div li {
+        list-style: none;
+        padding: 1rem;
+    }
+
+    .contact-div a {
+        text-decoration: none;
+        color: rgb(185, 215, 255);
+        font-size: 1.9rem;
+    }
+
+    .contact-div a:hover {
+        text-shadow:
+        0 0 5px #ffffffb4,
+        0 0 10px #ffffffbe,
+        0 0 20px #ffffffc4;
+        color: white;
+    }
+
+.break {
+    width: 100vw;
+    height: 0.5rem;
+    background-color: rgb(30, 0, 161);
+}    
+
+footer {
+    width: 100vw;
+    height: 9rem;
+    background-color: black;
+}
+
+    footer p {
+        color: white;
+        font-size: 1.7rem;
+        padding: 3rem 0 0 3rem;
+        text-align: center;
+    }
+
+
+    @media (max-width: 1400px){
+        .projects-container {
+            display: flex;
+            flex-direction: row;
+            width: 90%;
+            margin: 6rem auto;
+        }
+        .project-div {
+            width: 45rem;
+        }
+    }
+
+  
